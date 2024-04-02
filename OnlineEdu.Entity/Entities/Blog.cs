@@ -13,5 +13,7 @@ namespace OnlineEdu.Entity.Entities
         public string Content { get; set; }
         public string ImageUrl { get; set; }
         public  DateTime  PublishDate { get; set; }
+        public int BlogCateggoryId { get; set; }    
+        public BlogCategory BlogCategory { get; set; }
     }
 }

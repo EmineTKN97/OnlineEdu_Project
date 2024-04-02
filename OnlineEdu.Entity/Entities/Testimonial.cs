@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OnlineEdu.Entity.Entities
 {
-   public class Testmional
+   public class Testimonial
     {
         public  int  Id { get; set; }
         public string Name { get; set; }
